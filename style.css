@@ -1,0 +1,181 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Navigation menu */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #00bfff;
+}
+
+/* Section styles */
+section {
+  padding: 40px;
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  section {
+    margin: 10px;
+    padding: 20px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+}
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill span {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 15px;
+}
+
+.progress {
+  height: 15px;
+  border-radius: 10px;
+}
+
+.progress.html {
+  width: 90%;
+  background-color: #e44d26; /* HTML orange */
+}
+
+.progress.python {
+  width: 80%;
+  background-color: #306998; /* Python blue */
+}
+.progress.blender {
+  width: 35%;                /* Basic knowledge, adjust as needed */
+  background-color: #f57c00; /* Blender orange */
+}
+
+.progress.c {
+  width: 75%;
+  background-color: #555; /* Dark gray */
+}
+
+.progress.canva {
+  width: 85%;
+  background-color: #00c4cc; /* Canva teal */
+}
+
+.progress.microsoft {
+  width: 85%;
+  background-color: #f25022; /* Microsoft orange */
+
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #1a73e8;
+}
+#projects {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.project {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #1a73e8;
+}
+
+.project a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+#contact a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
